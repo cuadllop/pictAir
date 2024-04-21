@@ -1,0 +1,39 @@
+<!-- public/index.html -->
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Welcome to PICT AIR</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+
+  <header>
+    <div class="navbar">
+      <img src="PICT_AIR_Logo.png" alt="PICT AIR Logo" class="logo"> <!-- Ensure the source path matches the location where you upload the logo -->
+      <h1>PICT AIR</h1>
+    </div>
+  </header>
+<body>
+  <header>
+    <div class="navbar">
+      <h1>PICT AIR</h1>
+    </div>
+  </header>
+  <main>
+    <section class="search-section">
+      <h2>Find Your Flight</h2>
+      <p>Enter your flight number below:</p>
+      <form id="flightForm">
+        <input type="text" id="flightNumber" name="flightNumber" placeholder="Flight Number" required>
+        <button type="submit">Search</button>
+      </form>
+    </section>
+    <div id="results" class="results"></div>
+  </main>
+  <footer>
+    <p>&copy; 2024 PICT AIR. All Rights Reserved.</p>
+  </footer>
+  <script src="app.js"></script>
+</body>
+</html>
